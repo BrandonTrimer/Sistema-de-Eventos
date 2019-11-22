@@ -190,106 +190,57 @@
 									</div>
 								</div>
 							</div> <!-- Tickets Widget-->
-							<div class="col-xs-12 col-sm-7 product-details">
-								<div class="box box-primary site123-box-border">
-									<!-- Tickets -->
-									<h3>Entradas</h3> <br>
-									<div class="event-tickets">
-										<div class="row ticketLine ticketLineBorder">
-											<div class="col-xs-12">
-												<div class="row">
-													<div class="col-xs-6 col-sm-3 ticketHeader">Tipo de boleto</div>
-													<div class="col-xs-3 ticketHeader text-center hidden-xs">Precio
+							<style>
+									.container .mainOrderBox {position: relative;
+										  top: 100px;
+											left: 200px;
+											  width: 1000px;}
+											  
+										
+									</style>
+									<div class="container mainOrderBox">
+											<div class="box" >
+												<div class="payWizardTabs">
+													<div class="col-xs-6 order-step-1 info active">
+														<div> <span class="num">1</span> <i class="fa fa-info-circle fa-1x"></i> <span
+																class="hidden-xs">Introduzca su Carnet de identidad	</span> </div>
 													</div>
-													<div class="col-xs-6 col-sm-3 ticketHeader text-center">Cantidad
-													</div>
-													<div class="col-xs-3 ticketHeader text-center hidden-xs">Total</div>
+												
 												</div>
-											</div>
-										</div>
-										<div class="row ticketLine ticketLineBorder event-ticket-tatle">
-											<div class="col-xs-12">
 												<div class="row">
-													<div class="col-xs-6 col-sm-3">
-														<div class="event-ticket-title"> <span>VIP</span> </div>
-														<div class="visible-xs-inline"> <span dir="ltr"><span
-																	data-type="symbol">Bs</span><span
-																	data-type="price">50.00</span></span> </div>
-													</div>
-													<div class="col-xs-3 text-center hidden-xs">
-														<div> <span dir="ltr"><span data-type="symbol">Bs</span><span
-																	data-type="price">50.00</span></span> </div>
-													</div>
-													<div class="col-xs-6 col-sm-3 text-center">
-														<div class="quantity_field" data-original-title="" title="">
-															<button type="button"
-																class="quantity-minus-btn quantity-btn btn-link"><i
-																	class="ace-icon fa fa-minus bigger-110"></i></button>
-															<div id="quantity_ev-t-5b3893aba9acb" class="quantity-value"
-																data-quantity="0" min="0" max="1"
-																data-ticket-id="ev-t-5b3893aba9acb" data-version-num="2"
-																data-website-id="2821297">0</div> <button type="button"
-																class="quantity-plus-btn quantity-btn btn-link"><i
-																	class="ace-icon fa fa-plus bigger-110"></i></button>
+													<div class="col-xs-12 col-sm-7 order-spacing-box">
+														<div class="row order-form-box" style="display: block;">
+															<div class="col-xs-12 col-sm-9">
+															<div id="mobile-responsive-container" class="hidden-sm">
+																<div id="orderContainer">
+																	<br>
+																	
+																	<form id="order_form_detail "
+																		action="Pagar_TiCkeT.html"
+																		novalidate="novalidate" >
+																		<div class="row">
+																				<div class="col-xs-12">
+																						<div class="form-group softLabel"><input type="text" value=""
+																								id="" name="phone_number" class="form-control valid"
+																								required="" data-msg-required="Este campo es necesario"
+																								aria-required="true" aria-invalid="false"></label></div>
+																					</div>
+																									
+																		</div> <!-- Subscribe -->
+																	
+																		<div class="SubmitButtonsArea form-actions"> <button type="submit"
+																				class="btn btn-primary"> Continuar</button> 
+																		</div>
+																	</form>
+																</div>
+															</div>
 														</div>
 													</div>
-													<div class="col-xs-3 text-center hidden-xs">
-														<div id="total_ev-t-5b3893aba9acb"> <span dir="ltr"><span
-																	data-type="symbol">Bs</span><span
-																	data-type="price">0.00</span></span> </div>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-xs-12">
-														<div> </div>
-													</div>
+													
 												</div>
 											</div>
 										</div>
-										<div class="row ticketLine">
-											<div class="col-xs-12">
-												<div class="row">
-													<div class="col-xs-6 col-sm-offset-6 col-sm-3 text-center">
-														<h4>Total</h4>
-													</div>
-													<div class="col-xs-6 col-sm-3 text-center">
-														<h4 class="event-tickets-total"><span dir="ltr"><span
-																	data-type="symbol">Bs</span><span
-																	data-type="price">0.00</span></span></h4>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row ticketLine">
-											<div class="col-xs-12">
-												<div class="row">
-													<div class="col-xs-12 text-center">
-														<div class="event-checkout">
-															<!-- Event Form -->
-															<form class="eventsRegisterForm"	action="Pedido_TiCkeT.html">
-																<button type="button"
-																	class="btn btn-primary btn-lg event-checkout-btn "
-																	disabled="">Checkout</button> <input type="hidden"
-																	name="w" value=""> <input type="hidden"
-																	name="websiteID" value="2821297"> <input
-																	type="hidden" name="moduleID" value="5ac9e99f21623">
-																<input type="hidden" name="moduleID"
-																	value="5ac9e99f21623"> <input type="hidden"
-																	name="itemID" value="5ac9e9a5d116b"> <input
-																	type="hidden" name="orderScreen" value="1">
-																<textarea name="ordered_tickets"
-																	class="hidden"></textarea> <input type="hidden"
-																	name="tranW" value=""> </form>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div> <!-- Event Settings --> <textarea class="eventSettings hidden"
-										name="eventSettings">{"ev-t-5b3893aba9acb":{"price":"50.00","limitQuantity":20}}</textarea>
-								</div>
-							</div>
-						</div> <!-- Description -->
+								</div> <!-- Description -->
 						<div class="product-details-box">
 							<h4 class="product-details-box-header site123-box-border">Descripción</h4>
 							<div class="product-details-box-content responsive-handler fr-view breakable">
