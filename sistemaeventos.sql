@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-11-2019 a las 23:08:08
+-- Tiempo de generación: 24-11-2019 a las 04:16:20
 -- Versión del servidor: 10.1.31-MariaDB
 -- Versión de PHP: 7.2.4
 
@@ -48,7 +48,7 @@ CREATE TABLE `cliente` (
   `IdCliente` int(3) NOT NULL,
   `NombreCliente` varchar(45) COLLATE utf8_spanish_ci NOT NULL,
   `ApellidoCliente` varchar(45) COLLATE utf8_spanish_ci NOT NULL,
-  `CorreoCliente` int(45) NOT NULL,
+  `CorreoCliente` varchar(45) COLLATE utf8_spanish_ci NOT NULL,
   `TelefonoCliente` int(13) NOT NULL,
   `CarnetCliente` int(7) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
