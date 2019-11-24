@@ -197,9 +197,8 @@
                        
                     <form id="demo-2" >
                          
-                            <input type="search" placeholder="Search" class="btn-fab fab-right btn-primary" >
+                            <input type="search" placeholder="Buscar Usuario"  class="btn-fab fab-right">
                                     
-                                </a>
                         </form>
 
                         <style>
@@ -210,11 +209,10 @@
 
 
 input[type=search] {
+	background: #03a9f4 url(assets/img/descarga.png) no-repeat center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
 
-
-	border: solid 1px #ccc;
-	padding: 9px 10px 9px 32px;
-	
 	
 	-webkit-border-radius: 100em;
 	-moz-border-radius: 100em;
@@ -227,27 +225,11 @@ input[type=search] {
 }
 
 
-#demo-2 input[type=search] {
-	width: 10px;
-	padding-left: 5;
-	color: transparent;
-	cursor: pointer;
-}
-#demo-2 input[type=search]:hover {
-	background-color: rgb(255, 255, 255);
-}
 #demo-2 input[type=search]:focus {
 	width: 500px;
-	padding-left: 32px;
-	color: #000;
-	background-color: rgb(255, 255, 255);
-	cursor: auto;
-}
-#demo-2 input:-moz-placeholder {
-	color: transparent;
-}
-#demo-2 input::-webkit-input-placeholder {
-	color: transparent;
+
+         background: rgb(0, 0, 0) url(https://image.flaticon.com/icons/svg/431/431897.svg) no-repeat;
+   
 }
                         </style>
                       
@@ -267,8 +249,19 @@ input[type=search] {
                    
                     
                 </ul>
-                <div class="w3-container">
-                     
+
+                <style>
+                      
+                      
+                        #qr-video {
+                            height: 300px;  
+                        }
+                        #debug {
+                            word-wrap: break-word;
+                            word-break: break-all;
+                        }
+                    </style>
+                <div class="w3-container">                    
                       
                         <a   onclick="document.getElementById('id01').style.display='block'" class="btn-fab fab-right btn-primary" >
                         <i class="icon icon-qrcode"></i></a>
@@ -277,12 +270,78 @@ input[type=search] {
                             <header class="w3-container w3-teal"> 
                               <span onclick="document.getElementById('id01').style.display='none'" 
                               class="w3-button w3-large w3-display-topright">&times;</span>
-                              <h2>Modal Header</h2>
+                            <center>  <h2>Scanner Qr</h2></center>
                             </header>
-                            <div class="w3-container">
-                              <p>Some text..</p>
-                              <p>Some text..</p>
-                            </div>
+                            <br>
+                            <div class="container">
+                                <div class="card-group">
+                                  <div class="card bg-dark ">
+                                    <div class="card-body text-center">
+                                          
+                                                    <video muted playsinline id="qr-video"></video>
+                                                </div>
+                                                <div>
+                                                    <button style="display:none;" onclick="javascript:location.reload(true);">Refresh</button>
+                                                    <label>Camera:</label>
+                                                    <select id="camera-select">
+                                                        <option value="">Select a camera</option>
+                                                    </select>
+                                                </div>
+                                            
+                                               
+                                  </div>
+                                 
+                                  <div class="card bg-dark">    
+                                    <div class="card-body text-center">
+                                        
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>User Id</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Kshiti123</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Name</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Kshiti Ghelani</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Email</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>kshitighelani@gmail.com</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Phone</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>123 456 7890</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Profession</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Web Developer and Designer</p>
+                                                </div>
+                                            </div>
+                            
+                                    </div>
+                                  </div>
+                                 
+                                </div>
+                                <div id="debug"></div>
+                              </div>
+                            
                             <footer class="w3-container w3-teal">
                               <p>Modal Footer</p>
                             </footer>
@@ -533,7 +592,109 @@ input[type=search] {
     </div>
     
 </div>
+<script type="module">
+        import QrScanner from "https://nimiq.github.io/qr-scanner/qr-scanner.min.js";
+        //QrScanner.WORKER_PATH = 'https://nimiq.github.io/qr-scanner/qr-scanner-worker.min.js';
 
+        var globalDeviceId = '';
+
+        var getCameras = function() {
+            return navigator.mediaDevices.enumerateDevices()
+            .then(function(devices) {
+                return devices.filter(function(device){
+                    return device.kind === 'videoinput';
+                });
+            });
+        };
+        var prepareCameraOptions = function() {
+            getCameras()
+            .then(function(cameras) {
+                //console.log(cameras);
+                //console.log(JSON.stringify(cameras));
+                //alert(JSON.stringify(cameras));
+                document.querySelector('#debug').innerHTML = JSON.stringify(cameras);
+                var select = document.querySelector('#camera-select');
+                [].forEach.call(cameras, function(camera){
+                    var option = document.createElement("option");
+                    option.text = camera.label;
+                    option.value = camera.deviceId;
+                    select.add(option);
+                });
+            });
+        };
+        prepareCameraOptions();
+
+        var _getCameraStream = function(facingMode, exact = false) {
+            return getCameras()
+                .then(function(cameras) {
+                    //console.log(cameras);
+                    var backCamera;
+                    var backCameras = cameras.filter(function(camera){
+                        return camera.deviceId === globalDeviceId
+                          || camera.label.indexOf('back') >= 0;
+                    });
+                    if (backCameras && backCameras.length > 0) {
+                        backCamera = backCameras[0];
+                    }
+                    if (!backCamera) {
+                        backCamera = cameras[0];
+                    }
+                    console.log(backCamera);
+                    return backCamera;
+                })
+                .then(function (camera) {
+                    document.querySelector('#camera-select').value = camera.deviceId;
+                    var media = navigator.mediaDevices
+                        .getUserMedia({ video: { deviceId: { exact: camera.deviceId } } });
+                    return media;
+                });
+        };
+      
+        const video = document.getElementById('qr-video');
+        const camHasCamera = document.getElementById('cam-has-camera');
+        const camQrResult = document.getElementById('cam-qr-result');
+        const camQrResultTimestamp = document.getElementById('cam-qr-result-timestamp');
+        const fileSelector = document.getElementById('file-selector');
+        const fileQrResult = document.getElementById('file-qr-result');
+
+        function setResult(label, result) {
+            label.textContent = result;
+            camQrResultTimestamp.textContent = new Date().toString();
+            label.style.color = 'teal';
+            clearTimeout(label.highlightTimeout);
+            label.highlightTimeout = setTimeout(() => label.style.color = 'inherit', 100);
+        }
+
+        //QrScanner.hasCamera().then(hasCamera => camHasCamera.textContent = hasCamera);
+        var scanner;
+      
+        var openCamera = function (deviceId) {
+            console.log('openCamera');
+            globalDeviceId = deviceId;
+            //alert(globalDeviceId);
+            if (!globalDeviceId && scanner) {
+                console.log('scanner stop');
+                scanner.stop();
+            }
+            else {
+                scanner = new QrScanner(video); //, result => setResult(camQrResult, result)
+                // Override _getCameraStream
+                scanner._getCameraStream = _getCameraStream;
+                console.log('scanner start');
+                scanner.stop();
+                scanner.start();
+            }
+        }
+        openCamera();
+        
+        document.querySelector('#camera-select').addEventListener("change", function() {
+            var deviceId = document.querySelector('#camera-select').value||'';
+            openCamera('');
+            setTimeout(function(){ openCamera(deviceId); }, 1000);
+        });
+    </script>
+
+    
 
 
 <!-- /.right-sidebar -->
