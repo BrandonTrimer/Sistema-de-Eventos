@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,7 +8,7 @@
     <link rel="icon" href="assets/img/basic/favicon.ico" type="image/x-icon">
     <!--<link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <title>LoginValido</title>
+    <title>Inicio de Sesion</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/app.css">
     <style>
@@ -85,7 +85,7 @@
                 <div class="col-lg-4 mx-md-auto paper-card">
                     <div class="text-center">
                         <img src="assets/img/dummy/u4.png" alt="">
-                        <h3 class="mt-2">Sistema De Ventas De TicKet</h3>
+                        <h3 class="mt-2">Sistema De Eventos</h3>
                         <form class="form-inline">
                             <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> Ingresar Como </label>
                             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">

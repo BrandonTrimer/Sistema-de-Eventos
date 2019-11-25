@@ -84,7 +84,7 @@
 			<nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top  opacity-no affix-top">
 				<div class="site_container">
 					<div class="navbar-header"> <a class="navbar-brand page-scroll logo_name  weight700 "
-							href=""> <span class="website-name">EventosUPDS</span>
+							href=""> <span class="website-name">Eventos UPDS</span>
 						</a> </div>
 					<div id="top-menu">
 						<ul class="navPages nav navbar-nav" style="opacity: 1;">
@@ -344,13 +344,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="side1 col-xs-12 col-sm-6 col-md-6">
-							<div> <span class="footer_name website-name-preview-helper">UPDS</span> </div>
-							<div> Copyright © 2019 Todos los derechos reservados
+						<div> <span class="footer_name website-name-preview-helper">TiCkeT</span> </div>
+								<div> Copyright © 2019 Todos los derechos reservados 
+								</div>
+								<div class="clearfix upgrade-website-preview-helper">Desarrollado por Universidad Privada Domindo Savio</div>
 							</div>
-							<div class="clearfix upgrade-website-preview-helper">Desarrollado por <a rel="nofollow"
-									target="_blank" href="">KrizGutierrez</a> - <a rel="nofollow"
-									target="_blank" href="">Developer</a></div>
-						</div>
 					</div>
 				</div>
 			</footer>

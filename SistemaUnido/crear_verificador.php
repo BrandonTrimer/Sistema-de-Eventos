@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -190,7 +190,7 @@
                         <a class="nav-link"  href="lista_usuarios.php"><i class="icon icon-home2"></i>Lista Usuarios</a>
                     </li>
                     <li>
-                        <a class="nav-link active"  href="crear_verificador.php" ><i class="icon icon-plus-circle"></i>Registrar Nuevo Usuario Verificador</a>
+                        <a class="nav-link active"  href="crear_verificador.php" ><i class="icon icon-plus-circle"></i>Registrar Nuevo Usuario Supervisor</a>
                     </li>
                 </ul>
             </div>

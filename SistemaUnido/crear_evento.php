@@ -253,7 +253,9 @@
 
                     </div>
                 </div>
-                
+                <div class="card-body">
+                                <button type="submit" class="btn btn-primary btn-lg"><i class="icon-save mr-2"></i>Guardar</button>
+                            </div>
             </form>
         </div>
     </div>

@@ -240,11 +240,9 @@
 						<div class="row">
 							<div class="side1 col-xs-12 col-sm-6 col-md-6">
 								<div> <span class="footer_name website-name-preview-helper">TiCkeT</span> </div>
-								<div> Copyright © 2019 Todos los derechos reservados
+								<div> Copyright © 2019 Todos los derechos reservados 
 								</div>
-								<div class="clearfix upgrade-website-preview-helper">Desarrollado por <a rel="nofollow"
-										target="_blank" href="">KrizGutierrez</a> - <a rel="nofollow"
-										target="_blank" href="">Developer</a></div>
+								<div class="clearfix upgrade-website-preview-helper">Desarrollado por Universidad Privada Domindo Savio</div>
 							</div>
 							<div class="side2 col-xs-12 col-sm-6 col-md-6">
 								<ul class="navPages nav navbar-nav hidden-xs" style="opacity: 1;">

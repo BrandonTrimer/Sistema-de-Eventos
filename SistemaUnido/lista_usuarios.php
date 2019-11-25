@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -187,7 +187,7 @@
                     </li>
                     <li>
                         <a class="nav-link" id="v-pills-buyers-tab" data-toggle="pill" href="#v-pills-buyers" role="tab"
-                           aria-controls="v-pills-buyers"><i class="icon icon-face"></i> Verificadores</a>
+                           aria-controls="v-pills-buyers"><i class="icon icon-face"></i> Supervisores</a>
                     </li>
                     
                     <li class="float-right">
