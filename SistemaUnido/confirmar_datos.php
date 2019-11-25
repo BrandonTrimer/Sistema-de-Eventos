@@ -68,42 +68,39 @@
 				style="opacity: 0.7; filter: contrast(110%) brightness(110%) saturate(130%); transform: translate3d(0px, 0px, 0px); position: absolute; top: -55px; left: 0px; height: 854px; width: 1519px; max-width: none;">
 		</div>
 		<div class="body">
-			<div id="websiteHeader">
-				<nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top  opacity-no affix-top">
-					<div class="site_container">
-						<div class="navbar-header"> <a class="navbar-brand page-scroll logo_name  weight700 "
-								href=""> <span class="website-name">TiCkeT</span>
-							</a> </div>
-						<div id="top-menu">
-							<ul class="navPages nav navbar-nav" style="opacity: 1;">
-								<li class="moduleMenu active"><a class="page-scroll homepageMenu"
-										href="TiCkeT.html">Página de inicio</a></li>
-								<li class="moduleMenu" data-menu-module-id="5ac9e99f21623"><a class="page-scroll"
-										href="LINEUP-TiCkeT.html"><span
-											class="txt-container">LINEUP</span></a></li>
-								<li class="moduleMenu" data-menu-module-id="5ac9f29d7e7a0"><a class="page-scroll"
-										href="Nosotros_TiCkeT.html"><span
-											class="txt-container">About The Festival</span></a></li>
-								<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
-										href="Contacto_TiCkeT.html"><span
-											class="txt-container">Contacto</span></a></li>
-							</ul>
-							<ul class="navActions nav navbar-nav" style="opacity: 1;">
-								<li class="header-address-wrapper"><a data-close-location="right" class="actionButton"
-										role="button" data-container="body" data-toggle="address_menuCallActionIcons">
-										<i class="fa fa-location-arrow"></i></a></li>
-								<li class="header-social-wrapper "><a data-close-location="right" class="actionButton"
-										role="button" data-container="body" data-toggle="social_menuCallActionIcons">
-										<i	class="fa fa-share-alt"></i></a></li> <!-- Cart -->
-								<li class="header-cart-wrapper orderOpenCart show-static"><a
-										class="actionButton btn-primary-action-button-4" role="button"><i
-											class="fa fa-shopping-cart"><span class="count"
-												style="display: none;"></span></i></a></li> <!-- Menu Action Buttons -->
-							</ul>
-						</div>
+		<div id="websiteHeader">
+			<nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top  opacity-no affix-top">
+				<div class="site_container">
+					<div class="navbar-header"> <a class="navbar-brand page-scroll logo_name  weight700 "
+							href=""> <span class="website-name">Eventos UPDS</span>
+						</a> </div>
+					<div id="top-menu">
+						<ul class="navPages nav navbar-nav" style="opacity: 1;">
+							<li class="moduleMenu active"><a class="page-scroll homepageMenu"
+									href="TiCkeT.html">Página de inicio</a></li>
+							<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
+									href="Contacto_TiCkeT.html"><span
+										class="txt-container">Contacto</span></a></li>
+							<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
+									href="login.php"><span
+										class="txt-container">Registrarme</span></a></li>
+						</ul>
+						<ul class="navActions nav navbar-nav" style="opacity: 1;">
+							<li class="header-address-wrapper"><a data-close-location="right" class="actionButton"
+									role="button" data-container="body" data-toggle="address_menuCallActionIcons">
+									<i class="fa fa-location-arrow"></i></a></li>
+							<li class="header-social-wrapper "><a data-close-location="right" class="actionButton"
+									role="button" data-container="body" data-toggle="social_menuCallActionIcons">
+									<i	class="fa fa-share-alt"></i></a></li> <!-- Cart -->
+							<li class="header-cart-wrapper orderOpenCart show-static"><a
+									class="actionButton btn-primary-action-button-4" role="button"><i
+										class="fa fa-shopping-cart"><span class="count"
+											style="display: none;"></span></i></a></li> <!-- Menu Action Buttons -->
+						</ul>
 					</div>
-				</nav>
-			</div>
+				</div>
+			</nav>
+		</div>
 			<nav id="mainNavMobile" class="navbar-fixed-top" style="opacity: 1;">
 				<div class="navPagesLeft">
 					<div class="header-menu-wrapper"><a data-close-location="left" data-menu-color="" data-menu-type="0"
@@ -137,31 +134,8 @@
 					</ul>
 				</div>
 			</nav>
-			<div id="top-menu-mobile" style="display:none;">
-				<ul>
-					<li class="moduleMenu active"><a class="page-scroll homepageMenu"
-							href="TiCkeT.html">Página de inicio</a></li>
-					<li class="moduleMenu" data-menu-module-id="5ac9e99f21623"><a class="page-scroll"
-							href="LINEUP-TiCkeT.html"><span
-								class="txt-container">LINEUP</span></a></li>
-					<li class="moduleMenu" data-menu-module-id="5ac9f29d7e7a0"><a class="page-scroll"
-							href="Nosotros_TiCkeT.html"><span class="txt-container">About
-								The Festival</span></a></li>
-					<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
-							href="Contacto_TiCkeT.html"><span
-								class="txt-container">Contacto</span></a></li>
-				</ul>
-			</div>
 		<div id="s123PjaxMainContainer">
 			<div class="s123-content-area bg-primary">
-				<div class="container hidden">
-					<div class="row sslHeader">
-						<div class="col-xs-12 col-sm-6 name">
-							<h2>Complete su pedido</h2>
-						</div>
-						<div class="hidden-xs col-sm-6 sslLogo"> <i class="fa fa-shield"></i> </div>
-					</div>
-				</div>
 				<div class="container-fluid page_header_style page_header_style_">
 					<div class="row">
 						<div class="container">
@@ -177,28 +151,15 @@
 				</div>
 				<div class="container mainOrderBox">
 					<div class="box">
-						<div class="payWizardTabs">
-							<div class="col-xs-6 order-step-1 info ">
-								<div> <span class="num">1</span> <i class="fa fa-info-circle fa-1x"></i> <span
-										class="hidden-xs">Introduzca su carnet de identidad	</span> </div>
-							</div>
-							<div class="col-xs-6 order-step-3 pay active">
-								<div> <span class="num">2</span> <i class="fa fa-credit-card fa-1x"></i> <span
-										class="hidden-xs">Informacion</span> </div>
-							</div>
-						</div>
 						<div class="row">
 							<div class="col-xs-12 col-sm-12">
 								<div id="orderContainer">
 									<!-- Total Price  -->
-								
-									<hr>
 									<div class="col-xs-12 col-sm-4 col-sm-offset-4">
 										<div class="col-xs-12 payment-method-list border-primary">
-											<div class="radio"> <label> <input type="radio" name="payment_method"
-														value=".offline-payment-pay-btn" data-offline-type="phone"
-														data-display-name="Phone"> <span
-														class="payment-method-radio">IFORMACION PERSONAL</span> </label> </div>
+											<div class="radio"> <label><span
+														class="">IFORMACION PERSONAL</span> </label> 
+											</div>
 										</div>
 										<div class=" payment-method-list border-primary">
 												<input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
@@ -220,11 +181,6 @@
 												<input type="text" class="form-control" placeholder="Carnet de identidad" aria-label="Username" aria-describedby="basic-addon1">
 														
 										</div>
-										<form class="offline-payment-form hidden"
-											action="registro_completo.php"> <button type="submit"
-												class="offline-payment-pay-btn btn btn-primary">Pago fuera de
-												línea</button> 
-											<input type="hidden" class="offlineType" name="offlineType"> </form>
 										<div class="col-xs-12 payment-method-list"></div>
 										<div class="text-center"> <button type="button"
 												class="place-order-btn btn btn-primary">Finalizar</button> </div>
@@ -236,50 +192,17 @@
 				</div>
 			</div>
 			<footer class="global_footer footer_1">
-					<div class="container">
-						<div class="row">
-							<div class="side1 col-xs-12 col-sm-6 col-md-6">
-								<div> <span class="footer_name website-name-preview-helper">TiCkeT</span> </div>
+				<div class="container">
+					<div class="row">
+						<div class="side1 col-xs-12 col-sm-6 col-md-6">
+						<div> <span class="footer_name website-name-preview-helper">TiCkeT</span> </div>
 								<div> Copyright © 2019 Todos los derechos reservados 
 								</div>
 								<div class="clearfix upgrade-website-preview-helper">Desarrollado por Universidad Privada Domindo Savio</div>
 							</div>
-							<div class="side2 col-xs-12 col-sm-6 col-md-6">
-								<ul class="navPages nav navbar-nav hidden-xs" style="opacity: 1;">
-									<li class="moduleMenu active"><a class="page-scroll homepageMenu"
-											href="TiCkeT.html">Página de inicio</a></li>
-									<li class="moduleMenu" data-menu-module-id="5ac9e99f21623"><a class="page-scroll"
-											href="LINEUP-TiCkeT.html"><span
-												class="txt-container">LINEUP</span></a></li>
-									<li class="moduleMenu" data-menu-module-id="5ac9f29d7e7a0"><a class="page-scroll"
-											href="Nosotros_TiCkeT.html"><span
-												class="txt-container">About The Festival</span></a></li>
-									<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
-											href="Contacto_TiCkeT.html"><span
-												class="txt-container">Contacto</span></a></li>
-								</ul>
-								<div class="mailing">
-									<form id="widget_subscribe_form" class="widget_subscribe_form" novalidate="novalidate">
-										<div class="form-group">
-											<div class="input-group"> <span class="input-group-addon">
-													
-													<i class="fa fa-envelope" aria-hidden="true"></i></span> <input type="email"
-													id="widget-subscribe-form-email" name="widget-subscribe-form-email"
-													class="form-control required email" placeholder="Introduzca su correo"
-													aria-required="true" required=""
-													data-msg-required="Este campo es necesario" data-rule-email="true"
-													data-msg-email="Introduzca una dirección de correo electrónico válida.">
-												<span class="input-group-btn"> <button class="btn btn-primary"
-														 type="submit">Suscribirse</button> </span> </div>
-										</div> <input type="hidden" name="w" value=""> <input type="hidden" name="websiteID"
-											value="2821297">
-									</form>
-								</div>
-							
-							</div>
-						</div>
 					</div>
-				</footer>
+				</div>
+			</footer>
 		</div>
 	</div>
 	<div>

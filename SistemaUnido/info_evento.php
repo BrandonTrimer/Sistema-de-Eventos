@@ -64,33 +64,30 @@
 
 <body id="page-top" data-aos-easing="ease" data-aos-duration="200" data-aos-delay="0">
 	<div class="body">
-		<div id="websiteHeader">
+	<div id="websiteHeader">
 			<nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top  opacity-no affix-top">
 				<div class="site_container">
-					<div class="navbar-header"> <a class="navbar-brand page-unique logo_name  weight700 "
-							href="TiCkeT.html"> <span class="website-name">TiCkeT</span> </a>
-					</div>
+					<div class="navbar-header"> <a class="navbar-brand page-scroll logo_name  weight700 "
+							href=""> <span class="website-name">Eventos UPDS</span>
+						</a> </div>
 					<div id="top-menu">
 						<ul class="navPages nav navbar-nav" style="opacity: 1;">
-							<li class="moduleMenu"><a class="page-unique homepageMenu"
+							<li class="moduleMenu active"><a class="page-scroll homepageMenu"
 									href="TiCkeT.html">Página de inicio</a></li>
-							<li class="moduleMenu active" data-menu-module-id="5ac9e99f21623"><a class="page-unique"
-									href="LINEUP-TiCkeT.html"><span
-										class="txt-container">LINEUP</span></a></li>
-							<li class="moduleMenu" data-menu-module-id="5ac9f29d7e7a0"><a class="page-unique"
-									href="Nosotros_TiCkeT.html"><span
-										class="txt-container">About The Festival</span></a></li>
-							<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-unique"
+							<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
 									href="Contacto_TiCkeT.html"><span
 										class="txt-container">Contacto</span></a></li>
+							<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
+									href="login.php"><span
+										class="txt-container">Registrarme</span></a></li>
 						</ul>
 						<ul class="navActions nav navbar-nav" style="opacity: 1;">
 							<li class="header-address-wrapper"><a data-close-location="right" class="actionButton"
-									role="button" data-container="body" data-toggle="address_menuCallActionIcons"><i
-										class="fa fa-location-arrow"></i></a></li>
+									role="button" data-container="body" data-toggle="address_menuCallActionIcons">
+									<i class="fa fa-location-arrow"></i></a></li>
 							<li class="header-social-wrapper "><a data-close-location="right" class="actionButton"
-									role="button" data-container="body" data-toggle="social_menuCallActionIcons"><i
-										class="fa fa-share-alt"></i></a></li> <!-- Cart -->
+									role="button" data-container="body" data-toggle="social_menuCallActionIcons">
+									<i	class="fa fa-share-alt"></i></a></li> <!-- Cart -->
 							<li class="header-cart-wrapper orderOpenCart show-static"><a
 									class="actionButton btn-primary-action-button-4" role="button"><i
 										class="fa fa-shopping-cart"><span class="count"
@@ -124,38 +121,16 @@
 				</ul>
 			</div>
 		</nav>
-		<div id="top-menu-mobile" style="display:none;">
-			<ul>
-				<li class="moduleMenu"><a class="page-unique homepageMenu"
-						href="TiCkeT.html">Página de inicio</a></li>
-				<li class="moduleMenu active" data-menu-module-id="5ac9e99f21623"><a class="page-unique"
-						href="LINEUP-TiCkeT.html"><span class="txt-container">LINEUP</span></a>
-				</li>
-				<li class="moduleMenu" data-menu-module-id="5ac9f29d7e7a0"><a class="page-unique"
-						href="Nosotros_TiCkeT.html"><span class="txt-container">About The
-							Festival</span></a></li>
-				<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-unique"
-						href="Contacto_TiCkeT.html"><span
-							class="txt-container">Contacto</span></a></li>
-			</ul>
-		</div>
+		
 		<div id="s123PjaxMainContainer">
 			<div class="s123-content-area s123-page-container">
 				<section id="section-5ac9e99f21623"
 					class="s123-page-data s123-module s123-module-events s123-page-data-events layout-2 bg-primary s123-page-data-events">
-					<div class="breadcrumb-wrap">
-						<ol class="breadcrumb container">
-							<li><a class="homepageMenu" href="TiCkeT.html">Página de inicio</a>
-							</li>
-							<li><a href="LINEUP-TiCkeT.html">LINEUP</a></li>
-							<li class="active">Bass Drop DJ Crew</li>
-						</ol>
-					</div>
 					<div class="container-fluid page_header_style page_header_style_">
 						<div class="container">
 							<div class="row modulesTitle">
 								<div class="col-xs-12 text-center">
-									<h1 id="section-5ac9e99f21623-title">Bass Drop DJ Crew</h1>
+									<h1 id="section-5ac9e99f21623-title">Cursos De Framework</h1>
 									<hr class="small">
 								</div>
 							</div>
@@ -167,16 +142,13 @@
 							<!-- Details -->
 							<div class="col-xs-12 col-sm-5 product-details">
 								<!-- Description -->
+								<h3>Descripcion</h3>
 								<p>Este es un artículo de evento, utilizado para escribir y enumerar los eventos
 									planificados para el futuro en su sitio web. Puede editar todo este texto desde la
 									pestaña Páginas haciendo clic en el botón Editar.</p>
 								<hr> <!-- Global Informations -->
 								<ul class="list-unstyled">
-									<li> <span>Fecha:</span> 10-08-2021 08:00 </li>
-									<li> <span>Ubicación:</span> Woodstock, GA, USA (<a class="mapPopupActivator"
-											href="Bass_Drop_TiCkeT.html"
-											onclick="return false;" data-location="Woodstock, GA, USA">Mapa</a>)
-									</li>
+									<li> <span>Fecha:</span> 25/11/2019: 08:00 PM </li>
 								</ul>
 								<hr>
 								<div class="product-images">
@@ -202,7 +174,7 @@
 									<div class="box" >
 										<div class="payWizardTabs">
 											<div class="col-xs-6 order-step-1 info active">
-												<div> <span class="num">1</span> <i class="fa fa-info-circle fa-1x"></i> <span
+												<div> <span class="num"></span> <i class="""></i> <span
 														class="hidden-xs">Introduzca su Carnet de identidad	</span> </div>
 											</div>
 										
@@ -240,16 +212,6 @@
 										</div>
 									</div>
 								</div>
-						</div> <!-- Description -->
-						<div class="product-details-box">
-							<h4 class="product-details-box-header site123-box-border">Descripción</h4>
-							<div class="product-details-box-content responsive-handler fr-view breakable">
-								<p> Este es un artículo de evento, utilizado para escribir y enumerar los eventos
-									planificados para el futuro en su sitio web. Puede agregar cualquier evento que
-									desee o editar los que ya figuran en la lista. Puede editar todo este texto y
-									reemplazarlo con lo que desea escribir. Edite sus Eventos desde la pestaña Páginas
-									haciendo clic en el botón Editar. </p>
-							</div>
 						</div>
 					</div>
 				</section>
@@ -263,38 +225,6 @@
 								</div>
 								<div class="clearfix upgrade-website-preview-helper">Desarrollado por Universidad Privada Domindo Savio</div>
 							</div>
-						<div class="side2 col-xs-12 col-sm-6 col-md-6">
-							<ul class="navPages nav navbar-nav hidden-xs" style="opacity: 1;">
-								<li class="moduleMenu active"><a class="page-scroll homepageMenu"
-										href="TiCkeT.html">Página de inicio</a></li>
-								<li class="moduleMenu" data-menu-module-id="5ac9e99f21623"><a class="page-scroll"
-										href="LINEUP-TiCkeT.html"><span
-											class="txt-container">LINEUP</span></a></li>
-								<li class="moduleMenu" data-menu-module-id="5ac9f29d7e7a0"><a class="page-scroll"
-										href="Nosotros_TiCkeT.html"><span
-											class="txt-container">About The Festival</span></a></li>
-								<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
-										href="Contacto_TiCkeT.html"><span
-											class="txt-container">Contacto</span></a></li>
-							</ul>
-							<div class="mailing">
-								<form id="widget_subscribe_form" class="widget_subscribe_form" novalidate="novalidate">
-									<div class="form-group">
-										<div class="input-group"> <span class="input-group-addon"><i
-													class="fa fa-envelope"></i></span> <input type="email"
-												id="widget-subscribe-form-email" name="widget-subscribe-form-email"
-												class="form-control required email" placeholder="Introduzca su correo"
-												aria-required="true" required=""
-												data-msg-required="Este campo es necesario" data-rule-email="true"
-												data-msg-email="Introduzca una dirección de correo electrónico válida.">
-											<span class="input-group-btn"> <button class="btn btn-primary"
-			 										type="submit">Suscribirse</button> </span> </div>
-									</div> <input type="hidden" name="w" value=""> <input type="hidden" name="websiteID"
-										value="2821297">
-								</form>
-							</div>
-						
-						</div>
 					</div>
 				</div>
 			</footer>

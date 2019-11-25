@@ -232,14 +232,15 @@
 													href="info_evento.php"
 													class="event-image"
 													style="background-image:url(https://cdn-cms.f-static.com/uploads/2821297/800_filter_boost_5ac9f86e32c91.jpg);">
-													<div class="event-date">10 <span>Aug</span> </div>
+													<div class="event-date">10 <span>Febrero</span> </div>
 												</a>
 												<div class="event-details-container">
 													<h4><a href="Bass_Drop_TiCkeT.html"
-															class="">Bass Drop DJ Crew</a></h4>
+															class="">Concurso de Baile</a></h4>
 													<div class="event-price"> <span class="normal-price"><span
-																dir="ltr"><span data-type="symbol">Bs</span><span
-																	data-type="price">50.00</span></span></span> </div>
+																dir="ltr"><span data-type="symbol"><h4>Personas Registradas:__200</h4>
+															   </span></span> 
+													</div>
 												</div>
 											</div>
 										</div>
@@ -249,14 +250,16 @@
 													href="info_evento.php"
 													class="event-image"
 													style="background-image:url(https://cdn-cms.f-static.com/uploads/2821297/800_filter_boost_5ac9ecb79250f.jpg);">
-													<div class="event-date">11 <span>Aug</span> </div>
+													<div class="event-date">25 <span>Enero</span> </div>
 												</a>
 												<div class="event-details-container">
 													<h4><a href="info_evento.php"
-															class="">The Running DJ</a></h4>
-													<div class="event-price"> <span class="normal-price"><span
-																dir="ltr"><span data-type="symbol">Bs</span><span
-																	data-type="price">55.00</span></span></span> </div>
+															class="">Curso De Programacion</a></h4>
+															<div class="event-price"> <span class="normal-price"><span
+																dir="ltr"><span data-type="symbol"><h4>Personas Registradas:__80</h4>
+															   </span></span> 
+																
+													        </div>
 												</div>
 											</div>
 										</div>
@@ -266,14 +269,16 @@
 													href="info_evento.php"
 													class="event-image"
 													style="background-image:url(https://cdn-cms.f-static.com/uploads/2821297/800_crop_5ac9f91878591_filter_boost_5ac9ec060aea7.jpg);">
-													<div class="event-date">12 <span>Aug</span> </div>
+													<div class="event-date">15 <span>Septiembre</span> </div>
 												</a>
 												<div class="event-details-container">
 													<h4><a href="Street_Music_TiCkeT.html"
-															class="">Street Music Crew</a></h4>
-													<div class="event-price"> <span class="normal-price"><span
-																dir="ltr"><span data-type="symbol">Bs</span><span
-																	data-type="price">65.00</span></span></span> </div>
+															class="">Concurso De Diseño Grafico</a></h4>
+															<div class="event-price"> <span class="normal-price"><span
+																dir="ltr"><span data-type="symbol"><h4>Personas Registradas:__250</h4>
+															   </span></span> 
+																
+													       </div>
 												</div>
 											</div>
 										</div>
@@ -283,14 +288,16 @@
 													href="info_evento.php"
 													class="event-image"
 													style="background-image:url(https://cdn-cms.f-static.com/uploads/2821297/800_filter_boost_5ac9ebeadc4c6.jpg);">
-													<div class="event-date">13 <span>Aug</span> </div>
+													<div class="event-date">13 <span>Agosto</span> </div>
 												</a>
 												<div class="event-details-container">
 													<h4><a href="DJ_Smashing - TiCkeT.html"
-															class="">DJ Smashing</a></h4>
-													<div class="event-price"> <span class="normal-price"><span
-																dir="ltr"><span data-type="symbol">$b</span><span
-																	data-type="price">50.00</span></span></span> </div>
+															class="">Cursos De Framework</a></h4>
+															<div class="event-price"> <span class="normal-price"><span
+																dir="ltr"><span data-type="symbol"><h4>Personas Registradas:__300</h4>
+															   </span></span> 
+																
+													        </div>
 												</div>
 											</div>
 										</div>
@@ -306,7 +313,7 @@
 							<div class="container">
 								<div class="row modulesTitle">
 									<div class="col-xs-12 text-center">
-										<h2 id="section-5ac9f29d7e7a0-title" class="s123-page-header">About The Festival
+										<h2 id="section-5ac9f29d7e7a0-title" class="s123-page-header">ULTIMOS EVENTOS
 										</h2>
 										<hr class="small">
 										<h4 id="section-5ac9f29d7e7a0-slogan"></h4>
@@ -316,6 +323,7 @@
 						</div>
 					</div>
 					<div class="container aos-init" data-aos="fade-up">
+						<h3>Descripcion</h3>
 						<div class="row sides">
 							<div class="col-xs-12 col-md-6">
 								<div class="responsive-handler fr-view breakable">The About page is the core description
@@ -327,6 +335,7 @@
 									of this text and replace it with what you want to write. For example you can let
 									them know how long you have been in business, what makes your company special, what
 									are its core values and more.<br></div>
+									<H4>Fecha: 27/15/2019</H4>
 							</div>
 							<div class="col-xs-12 col-md-6">
 								<div class="separateImages text-center"> <img
