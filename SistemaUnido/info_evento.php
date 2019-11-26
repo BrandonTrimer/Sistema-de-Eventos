@@ -150,6 +150,12 @@
 								<ul class="list-unstyled">
 									<li> <span>Fecha:</span> 25/11/2019: 08:00 PM </li>
 								</ul>
+								<ul class="list-unstyled">
+									<li> <span>Registrados: </span> 137 </li>
+								</ul>
+								<ul class="list-unstyled">
+									<li> <span>Limite de Personas: </span> 150 </li>
+								</ul>
 								<hr>
 								<div class="product-images">
 									<!-- Main Image -->
