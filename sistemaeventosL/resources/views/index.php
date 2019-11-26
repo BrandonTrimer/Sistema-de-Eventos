@@ -76,7 +76,7 @@
 	</div>
 	<div class="parallax-mirror" id="parallax_home_opacity"
 		style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; background-color: rgb(0, 0, 0); transform: translate3d(0px, 0px, 0px); height: 743px; width: 1519px;">
-		<img class="parallax-slider" src="TiCkeT_files/img/2000_5ac9e89bc6d23.jpg"
+		<img class="parallax-slider" src="TiCkeT_files/img/updsFondo.jpg"
 			style="opacity: 0.7; filter: contrast(110%) brightness(110%) saturate(130%); transform: translate3d(0px, 0px, 0px); position: absolute; top: -55px; left: 0px; height: 854px; width: 1519px; max-width: none;">
 	</div>
 	<div class="body">
@@ -89,9 +89,9 @@
 					<div id="top-menu">
 						<ul class="navPages nav navbar-nav" style="opacity: 1;">
 							<li class="moduleMenu active"><a class="page-scroll homepageMenu"
-									href="TiCkeT.html">Página de inicio</a></li>
+									href="index.php">Página de inicio</a></li>
 							<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
-									href="Contacto_TiCkeT.html"><span
+									href="#"><span
 										class="txt-container">Contacto</span></a></li>
 							<li class="moduleMenu" data-menu-module-id="5ac9f45d7e7a3"><a class="page-scroll"
 									href="login.php"><span
