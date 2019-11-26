@@ -165,13 +165,47 @@
 									<div class="text-center charged-successfully">
 										<!-- Header -->
 										<h1>¡Gracias por Registrase!</h1> <!-- Offline Payment Details -->
+										
+
+
+
+
+
+
+										
+										
 										<div class="row">
-											<div class="col-xs-12 col-sm-6 col-sm-offset-3 offline-payment-method">
-												<div class="text-center"> <b>Correo electrónico</b><br> Para mas informacion,
-													consulta al: <br> <a href="Contacto_TiCkeT.html"
-														style="direction: ltr;">admin@admin.com</a> </div>
+											
+											<div  style=" " class="col-xs-12 col-sm-6 col-sm-offset-3 offline-payment-method">
+											<div style=" padding: 12px; width:200px; float: left;" >
+											<p class="text-center" > <b>CONFERENCIA DE MEDICINA</b></p>
+											<p class="text-left"> <b>Nombre del Usuario</b><br> Kevin Cardenas </p>
+											<p class="text-left"> <b>Correo Electronico</b><a href="Contacto_TiCkeT.html" style="direction: ltr;">  <br> kevin@upds.com.bo</a> </p>
+											<p class="text-left"> <b>Carnet del Usuario</b><br> 9330648 </p>
+											<p class="text-left"> <b>Fecha Del Evento</b><br> 18 de septiembre 2019 </p>											
 											</div>
-										</div> <!-- Buttons  --> <a href="index.php"
+
+											<div style="float: right; padding-top : 10%" ><img src="ima.jpg" alt=""></div>
+											
+										</div>
+
+
+
+
+
+
+
+
+										</div> 
+										
+										
+										
+										
+										
+										
+										
+										
+										<!-- Buttons  --> <a href="index.php"
 											class="btn btn-primary">Volver a Página principal</a>
 									</div>
 								</div>

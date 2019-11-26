@@ -128,9 +128,9 @@
                     class="icon icon-angle-left s-18 pull-right"></i>
             </a>
                 <ul class="treeview-menu">
-                    <li><a href="lista_usuarios.php"><i class="icon icon-circle-o"></i>Todos los Ususarios</a>
+                    <li><a href="lista_usuarios.php"><i class="icon icon-circle-o"></i>Todos los Usuarios</a>
                     </li>
-                    <li><a href="crear_verificador.php"><i class="icon icon-add"></i>Agregar usuario</a>
+                    <li><a href="crear_verificador.php"><i class="icon icon-add"></i>Agregar Supervisor</a>
                     </li>
                 </ul>
             </li>
@@ -191,7 +191,7 @@
                     </li>
                     
                     <li class="float-right">
-                        <a class="nav-link"  href="crear_verificador.php" ><i class="icon icon-plus-circle"></i> Registrar Nuevo Usuario</a>
+                        <a class="nav-link"  href="crear_verificador.php" ><i class="icon icon-plus-circle"></i> Registrar Nuevo Supervisor</a>
                     </li>
                 </ul>
             </div>

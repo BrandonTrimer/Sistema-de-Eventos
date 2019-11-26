@@ -9,6 +9,7 @@
     <title>Sistema de Eventos</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         .loader {
             position: fixed;
@@ -76,125 +77,186 @@
     </div>
 </div>
 <div id="app">
-<aside class="main-sidebar fixed offcanvas shadow">
-    <section class="sidebar">
-        <div class="w-80px mt-3 mb-3 ml-3">
-            <br>
-        </div>
-        <div class="relative">
-            <a data-toggle="collapse" href="#userSettingsCollapse" role="button" aria-expanded="false"
-                aria-controls="userSettingsCollapse" class="btn-fab btn-fab-sm fab-right fab-top btn-primary shadow1 ">
-                 <i class="icon icon-cogs"></i>
-             </a>
-             <div class="user-panel p-3 light mb-2">
-                 <div>
-                     <div class="float-left info">
-                        <h4 class="font-weight-light mt-2 mb-1">Kevin Rodrigo</h4>
-                        <h4 class="font-weight-light mt-2 mb-1">Cardenas Fernandez</h4>
-                        <h7 class="font-weight-light mt-2 mb-1">Kevin@gmail.com</h7>
-                     </div>
-                 </div>
-                 <div class="clearfix"></div>
-                 <div class="collapse multi-collapse" id="userSettingsCollapse">
-                    <div class="list-group mt-3 shadow">
-                        <a href="panel-page-profile.html" class="list-group-item list-group-item-action"><i
-                                 class="mr-2 icon-power-off text-red"></i>Cerrar Sesion</a>
-                        <a href="panel-page-profile.html" class="list-group-item list-group-item-action"><i
-                                 class="mr-2 icon icon-pencil light-green-text"></i>Editar</a>
-                    </div>
-                </div>             
-            </div>
-         </div>
-         <ul class="sidebar-menu">
-            <li class="header"><strong>Menu de Navegacion</strong></li>
-            
-            <li class="treeview"><a href="#">
-                <i class="icon icon icon-package blue-text s-18"></i>
-                Eventos<i
-                    class="icon icon-angle-left s-18 pull-right"></i>
-            </a>
 
-                <ul class="treeview-menu">
-                    <li><a href="adminindex.php"><i class="icon icon-circle-o"></i>Todos los Eventos</a>
-                    </li>
-                    <li><a href="crear_evento.php"><i class="icon icon-add"></i>Agregar evento </a>
-                    </li>
-                </ul>
-                
-            </li>
-            <li class="treeview"><a href="#">
-                <i class="icon icon-account_box light-green-text s-18"></i>
-                Usuarios<i
-                    class="icon icon-angle-left s-18 pull-right"></i>
-            </a>
-                <ul class="treeview-menu">
-                    <li><a href="lista_usuarios.php"><i class="icon icon-circle-o"></i>Todos los Usuarios</a>
-                    </li>
-                    <li><a href="crear_verificador.php"><i class="icon icon-add"></i>Agregar Supervisor</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-</aside>
-<!--Sidebar End-->
-<div class="has-sidebar-left">
-    <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark pt-2 pb-2 pl-4 pr-2">
-            <div class="search-bar">
-                <input class="transparent s-24 text-white b-0 font-weight-lighter w-128 height-50" type="text"
-                       placeholder="start typing...">
-            </div>
-            <a href="#" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-expanded="false"
-               aria-label="Toggle navigation" class="paper-nav-toggle paper-nav-white active "><i></i></a>
-        </div>
-    </div>
-</div>
-    <div class="sticky">
-        <div class="navbar navbar-expand navbar-dark d-flex justify-content-between bd-navbar blue accent-3">
-            <div class="relative">
-                <a href="#" data-toggle="offcanvas" class="paper-nav-toggle pp-nav-toggle">
-                    <i></i>
-                </a>
-            </div>
-            <!--Top Menu Start -->
-<div class="navbar-custom-menu p-t-10">
-    <ul class="nav navbar-nav">
-        </li>
-    </ul>
-</div>
-        </div>
-    </div>
-</div>
 
-<div class="page  has-sidebar-left height-full">
-    <header class="blue accent-3 relative">
+<div class="page has-sidebar height-full">
+    
+    <header class="blue accent-3 relative nav-sticky">
+        
         <div class="container-fluid text-white">
+            
+            
             <div class="row p-t-b-10 ">
+                
                 <div class="col">
                     <h4>
-                        <i class="icon-database"></i>
-                        Usuarios
+                        <i class="icon-box"></i>
+                        Dashboard
                     </h4>
+                 
+
+                 
+                       
+                    <form id="demo-2" >
+                         
+                            <input type="search" placeholder="Buscar Usuario"  class="btn-fab fab-right">
+                                    
+                        </form>
+
+                        <style>
+                        
+/* Demo 2 */
+
+
+
+
+input[type=search] {
+	background: #03a9f4 url(assets/img/descarga.png) no-repeat center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+
+	
+	-webkit-border-radius: 100em;
+	-moz-border-radius: 100em;
+    border-radius: 100em;
+ 
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+
+#demo-2 input[type=search]:focus {
+	width: 50%;
+
+         background: rgb(0, 0, 0) url(https://image.flaticon.com/icons/svg/431/431897.svg) no-repeat;
+   
+}
+                        </style>
+                      
+                            
+                        
                 </div>
+               
             </div>
-            <div class="row justify-content-between">
-                <ul class="nav nav-material nav-material-white responsive-tab" id="v-pills-tab" role="tablist">
+            <div class="row">
+                
+                   
+                <ul class="nav responsive-tab nav-material nav-material-white" id="v-pills-tab">
                     <li>
-                        <a class="nav-link active" id="v-pills-all-tab" data-toggle="pill" href="lista_usuarios.php"
-                           role="tab" aria-controls="v-pills-all"><i class="icon icon-home2"></i>Registrados</a>
+                        <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1">
+                            <i class="icon icon-home2"></i>Usuarios</a>
                     </li>
-                    <li>
-                        <a class="nav-link" id="v-pills-buyers-tab" data-toggle="pill" href="#v-pills-buyers" role="tab"
-                           aria-controls="v-pills-buyers"><i class="icon icon-face"></i> Supervisores</a>
-                    </li>
+                   
                     
-                    <li class="float-right">
-                        <a class="nav-link"  href="crear_verificador.php" ><i class="icon icon-plus-circle"></i> Registrar Nuevo Supervisor</a>
-                    </li>
                 </ul>
+
+                <style>
+                      
+                      
+                        #qr-video {
+                            width: 100%;
+                        }
+                        #debug {
+                            word-wrap: break-word;
+                            word-break: break-all;
+                        }
+                    </style>
+                <div class="w3-container">                    
+                      
+                        <a   onclick="document.getElementById('id01').style.display='block'" class="btn-fab fab-right btn-primary" >
+                        <i class="icon icon-qrcode"></i></a>
+                        <div id="id01" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('id01').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                            <center>  <h2>Scanner Qr</h2></center>
+                            </header>
+                            <br>
+                            <div class="container">
+                                <div class="card-group">
+                                  <div class="card bg-dark ">
+                                    <div class="card-body text-center">
+                                          
+                                                    <video muted playsinline id="qr-video"></video>
+                                                </div>
+                                                <div>
+                                                    <button style="display:none;" onclick="javascript:location.reload(true);">Refresh</button>
+                                                    <label>Camera:</label>
+                                                    <select id="camera-select">
+                                                        <option value="">Select a camera</option>
+                                                    </select>
+                                                </div>
+                                            
+                                               
+                                  </div>
+                                 
+                                  <div class="card bg-dark">    
+                                    <div class="card-body text-center">
+                                        
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>User Id</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Kshiti123</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Name</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Kshiti Ghelani</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Email</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>kshitighelani@gmail.com</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Phone</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>123 456 7890</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Profession</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Web Developer and Designer</p>
+                                                </div>
+                                            </div>
+                            
+                                    </div>
+                                  </div>
+                                 
+                                </div>
+                                <div id="debug"></div>
+                              </div>
+                            
+                            <footer class="w3-container w3-teal">
+                              <p>Modal Footer</p>
+                            </footer>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                
+                
+               
             </div>
+            
+           
         </div>
     </header>
     <div class="container-fluid animatedParent animateOnce">
@@ -225,6 +287,8 @@
 
                                         <tr>
                                             <td>
+                                                <div class="custom-control custom-checkbox">
+                                                </div>
                                             </td>
 
                                             <td>
@@ -240,6 +304,8 @@
                                         </tr>
                                         <tr>
                                             <td>
+                                                <div class="custom-control custom-checkbox">
+                                                </div>
                                             </td>
 
                                             <td>
@@ -255,6 +321,8 @@
                                         </tr>
                                         <tr>
                                             <td>
+                                                <div class="custom-control custom-checkbox">
+                                                </div>
                                             </td>
 
                                             <td>
@@ -270,6 +338,8 @@
                                         </tr>
                                         <tr>
                                             <td>
+                                                <div class="custom-control custom-checkbox">
+                                                </div>
                                             </td>
 
                                             <td>
@@ -422,10 +492,113 @@
             </div>
         </div>
     </div>
-    <!--Add New Message Fab Button-->
-    <a href="crear_verificador.php" class="btn-fab btn-fab-md fab-right fab-right-bottom-fixed shadow btn-primary"><i
-            class="icon-add"></i></a>
+    
 </div>
+<script type="module">
+        import QrScanner from "https://nimiq.github.io/qr-scanner/qr-scanner.min.js";
+        //QrScanner.WORKER_PATH = 'https://nimiq.github.io/qr-scanner/qr-scanner-worker.min.js';
+
+        var globalDeviceId = '';
+
+        var getCameras = function() {
+            return navigator.mediaDevices.enumerateDevices()
+            .then(function(devices) {
+                return devices.filter(function(device){
+                    return device.kind === 'videoinput';
+                });
+            });
+        };
+        var prepareCameraOptions = function() {
+            getCameras()
+            .then(function(cameras) {
+                //console.log(cameras);
+                //console.log(JSON.stringify(cameras));
+                //alert(JSON.stringify(cameras));
+                document.querySelector('#debug').innerHTML = JSON.stringify(cameras);
+                var select = document.querySelector('#camera-select');
+                [].forEach.call(cameras, function(camera){
+                    var option = document.createElement("option");
+                    option.text = camera.label;
+                    option.value = camera.deviceId;
+                    select.add(option);
+                });
+            });
+        };
+        prepareCameraOptions();
+
+        var _getCameraStream = function(facingMode, exact = false) {
+            return getCameras()
+                .then(function(cameras) {
+                    //console.log(cameras);
+                    var backCamera;
+                    var backCameras = cameras.filter(function(camera){
+                        return camera.deviceId === globalDeviceId
+                          || camera.label.indexOf('back') >= 0;
+                    });
+                    if (backCameras && backCameras.length > 0) {
+                        backCamera = backCameras[0];
+                    }
+                    if (!backCamera) {
+                        backCamera = cameras[0];
+                    }
+                    console.log(backCamera);
+                    return backCamera;
+                })
+                .then(function (camera) {
+                    document.querySelector('#camera-select').value = camera.deviceId;
+                    var media = navigator.mediaDevices
+                        .getUserMedia({ video: { deviceId: { exact: camera.deviceId } } });
+                    return media;
+                });
+        };
+      
+        const video = document.getElementById('qr-video');
+        const camHasCamera = document.getElementById('cam-has-camera');
+        const camQrResult = document.getElementById('cam-qr-result');
+        const camQrResultTimestamp = document.getElementById('cam-qr-result-timestamp');
+        const fileSelector = document.getElementById('file-selector');
+        const fileQrResult = document.getElementById('file-qr-result');
+
+        function setResult(label, result) {
+            label.textContent = result;
+            camQrResultTimestamp.textContent = new Date().toString();
+            label.style.color = 'teal';
+            clearTimeout(label.highlightTimeout);
+            label.highlightTimeout = setTimeout(() => label.style.color = 'inherit', 100);
+        }
+
+        //QrScanner.hasCamera().then(hasCamera => camHasCamera.textContent = hasCamera);
+        var scanner;
+      
+        var openCamera = function (deviceId) {
+            console.log('openCamera');
+            globalDeviceId = deviceId;
+            //alert(globalDeviceId);
+            if (!globalDeviceId && scanner) {
+                console.log('scanner stop');
+                scanner.stop();
+            }
+            else {
+                scanner = new QrScanner(video); //, result => setResult(camQrResult, result)
+                // Override _getCameraStream
+                scanner._getCameraStream = _getCameraStream;
+                console.log('scanner start');
+                scanner.stop();
+                scanner.start();
+            }
+        }
+        openCamera();
+        
+        document.querySelector('#camera-select').addEventListener("change", function() {
+            var deviceId = document.querySelector('#camera-select').value||'';
+            openCamera('');
+            setTimeout(function(){ openCamera(deviceId); }, 1000);
+        });
+    </script>
+
+    
+
+
 <!-- /.right-sidebar -->
 <!-- Add the sidebar's background. This div must be placed
          immediately after the control sidebar -->
