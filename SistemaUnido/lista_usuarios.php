@@ -423,7 +423,7 @@
         </div>
     </div>
     <!--Add New Message Fab Button-->
-    <a href="crear_verificador.php" class="btn-fab btn-fab-md fab-right fab-right-bottom-fixed shadow btn-primary"><i
+    <a href="crear_verificador.php" class=""><i
             class="icon-add"></i></a>
 </div>
 <!-- /.right-sidebar -->
