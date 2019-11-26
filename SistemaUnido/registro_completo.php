@@ -185,7 +185,7 @@
 											<p class="text-left"> <b>Fecha Del Evento</b><br> 18 de septiembre 2019 </p>											
 											</div>
 
-											<div style="float: right; padding-top : 10%" ><img src="ima.jpg" alt=""></div>
+											<div style="float: right; padding-top : 13%" ><img src="ima.jpg" alt=""></div>
 											
 										</div>
 
